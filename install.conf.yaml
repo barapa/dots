@@ -8,6 +8,13 @@
     ~/.dots: ''
     ~/.vim: vim
     ~/.vimrc: vimrc
+    ~/.zlogin: prezto/runcoms/zlogin
+    ~/.zlogout: prezto/runcoms/zlogin
+    ~/.zpreztorc: prezto/runcoms/zpreztorc
+    ~/.zprofile: prezto/runcoms/zprofile
+    ~/.zshenv: prezto/runcoms/zshenv
+    ~/.zshrc: prezto/runcoms/zshrc
+    ~/.zprezto: prezto
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
