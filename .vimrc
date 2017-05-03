@@ -25,6 +25,18 @@ syntax on
 " For plugins to load correctly
 filetype plugin indent on
 
+" At work
+if filereadable(expand('~/.at_google'))
+  " Google-only
+  " Intitialize some basic settings from google
+  source /usr/share/vim/google/google.vim
+
+  " youcompleteme install
+  Glug youcompleteme-google
+else
+  " Non-Google only
+endif
+
 " TODO: Pick a leader key
 " let mapleader = ","
 
