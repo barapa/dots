@@ -16,6 +16,8 @@ call plug#begin('~/.vim/plugged')
 " " Make sure you use single quotes
 Plug 'https://github.com/altercation/vim-colors-solarized.git'
 
+Plug 'fatih/vim-go'
+
 " " Initialize plugin system
 call plug#end()
 
