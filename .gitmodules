@@ -4,3 +4,7 @@
 [submodule "prezto"]
 	path = prezto
 	url = https://github.com/barapa/prezto
+[submodule "vim-colors-solarized"]
+	path = vim/plugged/vim-colors-solarized
+  url =  https://github.com/altercation/vim-colors-solarized
+
