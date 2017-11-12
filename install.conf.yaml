@@ -6,6 +6,7 @@
 
 - link:
     ~/.dots: ''
+    ~/.ideavimrc: ideavimrc
     ~/.vim: vim
     ~/.vimrc: vimrc
     ~/.zlogin: prezto/runcoms/zlogin
