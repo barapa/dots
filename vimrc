@@ -18,6 +18,8 @@ Plug 'https://github.com/altercation/vim-colors-solarized.git'
 
 Plug 'fatih/vim-go'
 
+Plug 'tpope/vim-eunuch'
+
 " " Initialize plugin system
 call plug#end()
 
